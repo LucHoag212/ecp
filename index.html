@@ -19,9 +19,15 @@
             padding: 1em;
         }
 
+        main {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            padding: 20px;
+        }
+
         section {
-            max-width: 600px;
-            margin: 20px auto;
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
@@ -52,27 +58,30 @@
         <h1>Mời các anh quét mã :></h1>
     </header>
 
-    <section class="profile">
-        <h2>Trần Phương Anh</h2>
-        <img src="Phanh.png" alt="Phanh.png">
-        <a href="https://www.facebook.com/profile.php?id=100007407193868" target="_blank"></a>
-    </section>
+    <main>
+        <section class="profile">
+            <h2>Trần Phương Anh</h2>
+            <img src="Phanh.png" alt="Phanh.png">
+            <a href="https://www.facebook.com/profile.php?id=100007407193868" target="_blank"></a>
+        </section>
 
-    <section class="profile">
-        <h2>Nguyễn Phương Thảo</h2>
-        <img src="Thảo.png" alt="Thảo.png">
-        <a href="https://www.facebook.com/thao.oc051298" target="_blank"></a>
-    </section>
+        <section class="profile">
+            <h2>Nguyễn Phương Thảo</h2>
+            <img src="Thảo.png" alt="Thảo.png">
+            <a href="https://www.facebook.com/thao.oc051298" target="_blank"></a>
+        </section>
 
-    <section class="profile">
-        <h2>Phan Hồng Hạnh</h2>
-        <img src="Hạnh.png" alt="Hạnh.png">
-        <a href="https://www.facebook.com/phanhonghanh04" target="_blank"></a>
-    </section>
-    <section class="profile">
-        <h2>Đào Thanh Huy</h2>
-        <img src="Huy.png" alt="huy.png">
-        <a href="https://www.facebook.com/daothanhhuy95" target="_blank"></a>
-    </section>
+        <section class="profile">
+            <h2>Phan Hồng Hạnh</h2>
+            <img src="Hạnh.png" alt="Hạnh.png">
+            <a href="https://www.facebook.com/phanhonghanh04" target="_blank"></a>
+        </section>
+
+        <section class="profile">
+            <h2>Đào Thanh Huy</h2>
+            <img src="Huy.png" alt="huy.png">
+            <a href="https://www.facebook.com/daothanhhuy95" target="_blank"></a>
+        </section>
+    </main>
 </body>
 </html>
